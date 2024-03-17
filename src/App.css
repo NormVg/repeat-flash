@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body{
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  white;
+
+  transition: all 1s ease-in-out;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none;
+}
+
+.back {
+  margin: 37px;
+  position: absolute;
+  left: 0%;
+  
+}
+
+.up{
+  margin: 37px;
+  margin-right: 50px;
+  position: absolute;
+  right: 0%;
+}
+
+.down{
+  margin: 37px;
+  margin-right: 50px;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+.flashimg{
+  height: 90vh;
+  aspect-ratio: 9/16;
+  background-color: #27C499;
+  border-radius: 25px;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;  
+  text-align: center;
+}
+.flashimg-open{
+  height: 90vh;
+  aspect-ratio: 9/16;
+  background-color: #BC8484;
+  border-radius: 25px;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  text-align: center;
+}
+.counter{
+  font-size: 95px;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  margin: 37px;
+}
